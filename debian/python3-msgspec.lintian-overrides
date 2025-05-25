@@ -1,0 +1,4 @@
+python3-msgspec: copyright-without-copyright-notice
+python3-msgspec: initial-upload-closes-no-bugs
+python3-msgspec: no-manual-page
+python3-msgspec: zero-byte-file-in-doc-directory
