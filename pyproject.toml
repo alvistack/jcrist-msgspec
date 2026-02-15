@@ -1,21 +1,15 @@
 [build-system]
 requires = [
   "setuptools>=80",
-  "setuptools-scm>=8",
 ]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "msgspec"
-dynamic = [
-  "version",
-]
+version = "0.20.0"
 description = "A fast serialization and validation library, with builtin support for JSON, MessagePack, YAML, and TOML."
 readme = "README.md"
-license = "BSD-3-Clause"
-license-files = [
-  "LICENSE",
-]
+license = { text = "BSD-3-Clause" }
 requires-python = ">=3.9"
 maintainers = [
   { name = "Jim Crist-Harif", email = "jcristharif@gmail.com" },
@@ -121,10 +115,6 @@ msgspec = [
   "*.c",
   "*.h",
 ]
-
-[tool.setuptools_scm]
-version_file = "src/msgspec/_version.py"
-parentdir_prefix_version = "msgspec-"
 
 [tool.uv.config-settings]
 editable_mode = "compat"

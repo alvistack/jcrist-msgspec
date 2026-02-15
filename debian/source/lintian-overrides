@@ -1,0 +1,5 @@
+python-msgspec source: file-without-copyright-information
+python-msgspec source: no-debian-changes
+python-msgspec source: source-contains-prebuilt-windows-binary
+python-msgspec source: source-is-missing
+python-msgspec source: source-package-encodes-python-version
